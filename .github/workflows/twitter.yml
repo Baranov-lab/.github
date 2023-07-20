@@ -1,5 +1,5 @@
 name: Latest tweets including attachments
-  on:
+on:
   # Schedule updates (each hour)
   schedule: [{cron: "0 * * * *"}]
   # Lines below let you run workflow manually and on each commit
